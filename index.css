@@ -1,3 +1,10 @@
 body {
+    color: beige;
     background-color: rgb(27, 109, 185);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
