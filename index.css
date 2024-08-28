@@ -32,6 +32,10 @@ header img {
     text-align: center;
 }
 
+main {
+    margin: 30px 700px 30px 40px;
+}
+
 h1 {
     color: #5BBE42;
     font-size: 40px;
@@ -44,8 +48,15 @@ h2 {
 }
 
 footer img {
+    display: inline-flex;
     width: 80px;
     height: 80px;
     border-radius:50%;
 }
 
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    font-size: 20px;
+}
