@@ -49,14 +49,13 @@ h2 {
 
 footer img {
     display: inline-flex;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius:50%;
 }
 
-footer a {
+footer {
     display: flex;
     justify-content: center;
-    align-items: ;
-    font-size: 20px;
+  
 }
