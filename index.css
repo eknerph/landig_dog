@@ -35,12 +35,12 @@ header img {
 h1 {
     color: #5BBE42;
     font-size: 40px;
-    margin: 0 0 0 40px;
+    
 }
 
 h2 {
     font-size: 60px;
-    margin: 0 0 0 40px;
+    
 }
 
 footer img {
@@ -63,4 +63,8 @@ footer a {
 
 footer p {
     margin-top: 2px;
+}
+
+.container {
+    margin: 0 100px;
 }
