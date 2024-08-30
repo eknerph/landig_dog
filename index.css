@@ -68,3 +68,7 @@ footer p {
 .container {
     margin: 0 100px;
 }
+
+nav a:hover {
+    color: #5BBE42;
+}
