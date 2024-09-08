@@ -5,4 +5,4 @@ Página para busca/procura de pequenos dogs/câes
     Material complementar para continuação da construção da página
     aguardando a usuária proprietária
 
-# DE ALGUMA MANEIRA EU AGURADO RESPOSTA
+# Aperendendo a como colocar o site responsivo
