@@ -3,3 +3,10 @@ body {
   background-color: rgb(185, 38, 27);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.h1 {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  
+}
