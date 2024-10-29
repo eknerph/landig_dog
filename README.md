@@ -17,4 +17,5 @@ Página para busca/procura de pequenos dogs/câes
 
     `````
 
-    Normalmente
+    Normalmente, não é preciso mudar todas as propriedades da classe CSS, isso
+    porque os valores de, por exemplo, cor de fundo, cor de texto e similares, não mudam. A menos que você queira que eles tenham algum tipo de mudança mais para frente.
