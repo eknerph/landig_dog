@@ -16,31 +16,25 @@ nav {
 
 nav a:hover {
     color: #5BBE42;
-}
-
-    
+}    
 
 ul {
     list-style: none;
-    padding: 0;
-
-   
+    padding: 0;   
+    background-color: rgb(64, 63, 95);
 }
 
 ul li {
-    display: inline;
-    
-      
+    display: inline;  
 }
 
 ul li a {
     color: white;
     text-decoration: none;
     padding: 20px;
-    display: inline;
+    display: inline-block;
     font-size: 34px; 
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 header img {
