@@ -21,7 +21,7 @@ nav a:hover {
     background-color: #5BBE42;
 }    
 
-ul {
+nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -31,11 +31,11 @@ ul {
     
 }
 
-ul li {
+nav ul li {
     display: inline; 
 }
 
-ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -47,13 +47,21 @@ ul li a {
     
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #f0f0f0;
+  }
+
 header img {
     width: 250px;
     height: 250px;
     border-radius:50%;
     border: 5px solid #5BBE42;
 
-    margin-top: 50px;
+   
 }
 
 .center {
