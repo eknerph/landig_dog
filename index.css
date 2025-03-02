@@ -12,10 +12,11 @@ body {
 
 nav {
     background-color: rgb(154, 25, 206);
+    
 }
 
 nav a:hover {
-    color: #5BBE42;
+    background-color: #5BBE42;
 }    
 
 ul {
@@ -35,6 +36,7 @@ ul li a {
     display: inline-block;
     font-size: 34px; 
     font-weight: 600;    
+    transition: background .5s;
 }
 
 header img {
