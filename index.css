@@ -25,9 +25,10 @@ nav a:hover {
 }    
 
 nav ul {
-    
     padding: 0;      
-    margin: 0 auto;    
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;    
     
 }
 
@@ -58,11 +59,13 @@ header img {
     border: 5px solid #5BBE42;
 
     margin: 30px 90px;
+   
 
    
 }
 
 .center {
+    display: flex;
     text-align: center;
 }
 
