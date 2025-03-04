@@ -75,13 +75,7 @@ header img {
     text-align: center;    
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 600px;
-}
+
 
 h1 {
     color: #5BBE42;
@@ -93,6 +87,27 @@ h2 {
     font-size: 60px;
     
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+
+
+
+section p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+
+    text-align: justify;
+    text-indent: 4%;
+}
+
+
 
 footer img {
  
