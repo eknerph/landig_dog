@@ -64,8 +64,11 @@ header img {
    
 }
 
-.center {
+.container {
     display: flex;
+    display: inline;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
