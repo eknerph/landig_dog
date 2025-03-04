@@ -9,6 +9,8 @@ body {
     background-color: rgb(27, 109, 185);
     font-family: Helvetica, sans-serif;
     height: 100vh;
+
+
 }
 
 nav {
@@ -67,14 +69,17 @@ header img {
 
 .container {
     display: flex;
-    display: inline;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;    
 }
 
 main {
-    display: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 600px;
 }
 
