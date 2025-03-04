@@ -5,8 +5,9 @@
 }
 
 html {
-    position: relative;
+    scroll-behavior: smooth;
 }
+  
 
 body {
     color: beige;
@@ -96,6 +97,13 @@ h1 {
 h2 {
     font-size: 40px; /* Tamanho da fonte ajustado para responsividade */
     margin: 10px 0; /* Adicionado margin para melhor espaçamento vertical */
+}
+
+h4 {
+    display: flex;
+    align-items: start;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 main {
