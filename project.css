@@ -7,9 +7,22 @@ background-image: url('image/cint_2_dog.png');
 
 }
 
-.h1 {
-  position: relative;
-  top: 100%;
-  left: 43%;
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px; /* Padding ajustado para responsividade */
+  font-size: 60px; /* Tamanho da fonte ajustado para responsividade */
+  font-weight: 600;
+
+  
+  margin-top: 30px;
+ 
+  
+  
+  
   
 }
