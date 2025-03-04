@@ -128,9 +128,14 @@ footer {
 footer a {
     margin: 20px;
     text-align: center;
+    text-decoration: none;
 }
 
 footer p {
+    font-size: 18px;
+    color: #ffffff;
+    
+
     margin-top: 2px;
 }
 
