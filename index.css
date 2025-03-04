@@ -10,7 +10,7 @@ html {
 
 body {
     color: beige;
-    background-color: rgb(28, 107, 180);
+    background-color: #1c6bb4;
     font-family: Helvetica, sans-serif;
     min-height: 100vh; /* Mudado para 100% para evitar problemas em telas menores */
     position: relative;
@@ -23,8 +23,7 @@ nav {
     background-color: rgb(64, 63, 95);
     display: flex;
     align-items: center;
-   
-    
+    margin-top: 3rem;    
     width: 100%; /* Adicionado para limitar a largura em telas maiores */
     max-width: 100%; /* Adicionado para limitar a largura máxima */
    
@@ -64,7 +63,7 @@ header {
     justify-content: center; /* Centralizar o conteúdo */
     align-items: center;
     flex-direction: column; /* Colocar a imagem e o título em coluna */
-    background-color: #f0f0f0;
+    background-color: #1c6bb4;
      /* Adicionado padding para melhor espaçamento */
 }
 
@@ -73,7 +72,7 @@ header img {
     height: 100px;
     border-radius: 50%;
     border: 5px solid #5BBE42;
-    margin: 20px 50px ; /* Ajustado o margin para melhor espaçamento vertical */
+    margin: 15px 0 15px 55px ; /* Ajustado o margin para melhor espaçamento vertical */
 }
 
 .container {
@@ -149,12 +148,36 @@ footer p {
 
 /* Media Queries para Responsividade */
 @media (max-width: 768px) {
-    nav ul {
-        gap: 10px; /* Reduzir o gap em telas menores */
+    nav {
+        display: flex;
+        flex-direction: column;
+        
     }
 
+    nav ul {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        
+        
+         /* Reduzir o gap em telas menores */
+    }
+
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
     nav ul li a {
-        font-size: 18px; /* Reduzir o tamanho da fonte em telas menores */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        font-size: 28px; /* Reduzir o tamanho da fonte em telas menores */
         padding: 8px 12px; /* Reduzir o padding em telas menores */
     }
 
@@ -170,15 +193,17 @@ footer p {
         font-size: 15px; /* Reduzir o tamanho da fonte em telas menores */
     }
 
+  
     header img {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
+        margin: 20px;
     }
 }
 
 @media (max-width: 480px) {
     nav ul li a {
-        font-size: 16px; /* Reduzir ainda mais o tamanho da fonte em telas muito pequenas */
+        font-size: 25px; /* Reduzir ainda mais o tamanho da fonte em telas muito pequenas */
         padding: 6px 10px; /* Reduzir ainda mais o padding em telas muito pequenas */
     }
 }
