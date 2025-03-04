@@ -210,6 +210,11 @@ footer p {
 }
 
 @media (max-width: 480px) {
+    section img {
+        width: 100%;
+        height: auto;
+    }
+
     nav ul li a {
         font-size: 25px; /* Reduzir ainda mais o tamanho da fonte em telas muito pequenas */
         padding: 6px 10px; /* Reduzir ainda mais o padding em telas muito pequenas */
