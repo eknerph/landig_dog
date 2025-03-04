@@ -8,6 +8,7 @@ body {
     color: beige;
     background-color: rgb(27, 109, 185);
     font-family: Helvetica, sans-serif;
+    height: 100vh;
 }
 
 nav {
@@ -69,7 +70,12 @@ header img {
     display: inline;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;    
+}
+
+main {
+    display: ;
+    max-width: 600px;
 }
 
 h1 {
@@ -105,7 +111,4 @@ footer p {
     margin-top: 2px;
 }
 
-.container {
-    margin: 0 100px;
-}
 
