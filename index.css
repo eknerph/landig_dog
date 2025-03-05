@@ -34,7 +34,7 @@ nav {
 
 nav ul {
     padding: 0;
-    margin: 0 auto;
+    margin: auto 0 auto 22rem;
     display: flex;
     gap: 20px; /* Gap ajustado para responsividade */
     flex-wrap: wrap; /* Adicionado para quebrar os itens em telas menores */
@@ -116,13 +116,24 @@ main {
     margin: 20px auto; /* Adicionado margin para centralizar */
 }
 
+section .mim {
+    width: 35%;
+    height: ;
+    margin: 15px 0; /* Adicionado margin para melhor espaçamento vertical */
+}
+
+section .lar {
+    width: 50%;
+    height: auto;
+}
+
 section h3 {
     font-size: 2rem; /* Tamanho da fonte ajustado para responsividade */
     margin: 30px 0 15px; /* Ajustado o margin para melhor espaçamento vertical */
 }
 
 section p {
-    font-size: 16px; /* Tamanho da fonte ajustado para responsividade */
+    font-size: 20px; /* Tamanho da fonte ajustado para responsividade */
     line-height: 1.6;
     margin-bottom: 15px;
     text-align: justify;
@@ -199,6 +210,11 @@ footer p {
 
     section p {
         font-size: 15px; /* Reduzir o tamanho da fonte em telas menores */
+    }
+
+    section .lar {
+        width: auto;
+        height: auto;
     }
 
   
