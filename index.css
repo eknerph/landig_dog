@@ -7,15 +7,16 @@
 html {
     scroll-behavior: smooth;
 }
-  
+
 
 body {
     color: beige;
     background-color: #1c6bb4;
     font-family: Helvetica, sans-serif;
-    min-height: 100vh; /* Mudado para 100% para evitar problemas em telas menores */
+    min-height: 100vh;
+    /* Mudado para 100% para evitar problemas em telas menores */
     position: relative;
-    
+
 }
 
 
@@ -24,21 +25,26 @@ nav {
     background-color: rgb(64, 63, 95);
     display: flex;
     align-items: center;
-    margin-top: 3rem;    
-    width: 100%; /* Adicionado para limitar a largura em telas maiores */
-    max-width: 100%; /* Adicionado para limitar a largura máxima */
-   
-   
-}   
+    margin-top: 3rem;
+    width: 100%;
+    /* Adicionado para limitar a largura em telas maiores */
+    max-width: 100%;
+    /* Adicionado para limitar a largura máxima */
+
+
+}
 
 
 nav ul {
     padding: 0;
     margin: auto 0 auto 22rem;
     display: flex;
-    gap: 20px; /* Gap ajustado para responsividade */
-    flex-wrap: wrap; /* Adicionado para quebrar os itens em telas menores */
-    justify-content: center; /* Centralizar os itens */
+    gap: 20px;
+    /* Gap ajustado para responsividade */
+    flex-wrap: wrap;
+    /* Adicionado para quebrar os itens em telas menores */
+    justify-content: center;
+    /* Centralizar os itens */
 }
 
 nav ul li {
@@ -48,10 +54,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; /* Padding ajustado para responsividade */
-    font-size: 30px; /* Tamanho da fonte ajustado para responsividade */
+    padding: 10px 15px;
+    /* Padding ajustado para responsividade */
+    font-size: 30px;
+    /* Tamanho da fonte ajustado para responsividade */
     font-weight: 600;
     transition: background .5s;
+    border-radius: 10px;
 }
 
 nav a:hover {
@@ -60,12 +69,15 @@ nav a:hover {
 }
 
 header {
-    display: flex; /* Mudado para flex para melhor controle do layout */
-    justify-content: center; /* Centralizar o conteúdo */
+    display: flex;
+    /* Mudado para flex para melhor controle do layout */
+    justify-content: center;
+    /* Centralizar o conteúdo */
     align-items: center;
-    flex-direction: column; /* Colocar a imagem e o título em coluna */
+    flex-direction: column;
+    /* Colocar a imagem e o título em coluna */
     background-color: #1c6bb4;
-     /* Adicionado padding para melhor espaçamento */
+    /* Adicionado padding para melhor espaçamento */
 }
 
 header img {
@@ -73,7 +85,8 @@ header img {
     height: 100px;
     border-radius: 50%;
     border: 5px solid #5BBE42;
-    margin: 15px 0 15px 55px ; /* Ajustado o margin para melhor espaçamento vertical */
+    margin: 15px 0 15px 55px;
+    /* Ajustado o margin para melhor espaçamento vertical */
 }
 
 .container {
@@ -82,21 +95,28 @@ header img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 90%; /* Adicionado para limitar a largura em telas maiores */
-    
-    max-width: 1000px; /* Adicionado para limitar a largura máxima */
-    margin: 20px auto; /* Adicionado margin para centralizar */
+    width: 90%;
+    /* Adicionado para limitar a largura em telas maiores */
+
+    max-width: 1000px;
+    /* Adicionado para limitar a largura máxima */
+    margin: 20px auto;
+    /* Adicionado margin para centralizar */
 }
 
 h1 {
     color: #5BBE42;
-    font-size: 40px; /* Tamanho da fonte ajustado para responsividade */
-    margin: 20px 0 30px; /* Ajustado o margin para melhor espaçamento vertical */
+    font-size: 40px;
+    /* Tamanho da fonte ajustado para responsividade */
+    margin: 20px 0 30px;
+    /* Ajustado o margin para melhor espaçamento vertical */
 }
 
 h2 {
-    font-size: 40px; /* Tamanho da fonte ajustado para responsividade */
-    margin: 10px 0; /* Adicionado margin para melhor espaçamento vertical */
+    font-size: 40px;
+    /* Tamanho da fonte ajustado para responsividade */
+    margin: 10px 0;
+    /* Adicionado margin para melhor espaçamento vertical */
 }
 
 h4 {
@@ -111,15 +131,19 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%; /* Adicionado para limitar a largura em telas maiores */
-    max-width: 1000px; /* Adicionado para limitar a largura máxima */
-    margin: 20px auto; /* Adicionado margin para centralizar */
+    width: 90%;
+    /* Adicionado para limitar a largura em telas maiores */
+    max-width: 1000px;
+    /* Adicionado para limitar a largura máxima */
+    margin: 20px auto;
+    /* Adicionado margin para centralizar */
 }
 
 section .mim {
     width: 35%;
-    height: ;
-    margin: 15px 0; /* Adicionado margin para melhor espaçamento vertical */
+    height: 100%;
+    margin: 15px 0;
+    /* Adicionado margin para melhor espaçamento vertical */
 }
 
 section .lar {
@@ -128,12 +152,15 @@ section .lar {
 }
 
 section h3 {
-    font-size: 2rem; /* Tamanho da fonte ajustado para responsividade */
-    margin: 30px 0 15px; /* Ajustado o margin para melhor espaçamento vertical */
+    font-size: 2rem;
+    /* Tamanho da fonte ajustado para responsividade */
+    margin: 30px 0 15px;
+    /* Ajustado o margin para melhor espaçamento vertical */
 }
 
 section p {
-    font-size: 20px; /* Tamanho da fonte ajustado para responsividade */
+    font-size: 20px;
+    /* Tamanho da fonte ajustado para responsividade */
     line-height: 1.6;
     margin-bottom: 15px;
     text-align: justify;
@@ -143,12 +170,15 @@ section p {
 footer {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Adicionado para quebrar os itens em telas menores */
-    margin-top: 30px; /* Adicionado margin top para espaçamento */
+    flex-wrap: wrap;
+    /* Adicionado para quebrar os itens em telas menores */
+    margin-top: 30px;
+    /* Adicionado margin top para espaçamento */
 }
 
 footer a {
-    margin: 10px; /* Margin ajustado para responsividade */
+    margin: 10px;
+    /* Margin ajustado para responsividade */
     text-align: center;
     text-decoration: none;
 }
@@ -160,7 +190,8 @@ footer img {
 }
 
 footer p {
-    font-size: 16px; /* Tamanho da fonte ajustado para responsividade */
+    font-size: 16px;
+    /* Tamanho da fonte ajustado para responsividade */
     color: #ffffff;
     margin-top: 2px;
 }
@@ -170,7 +201,7 @@ footer p {
     nav {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     nav ul {
@@ -179,15 +210,15 @@ footer p {
         flex-direction: column;
         text-align: center;
         margin: 20px;
-        
-        
-         /* Reduzir o gap em telas menores */
+
+
+        /* Reduzir o gap em telas menores */
     }
 
     nav ul li {
         display: flex;
         flex-direction: column;
-        
+
     }
 
 
@@ -196,20 +227,26 @@ footer p {
         flex-direction: column;
         flex-wrap: wrap;
 
-        font-size: 28px; /* Reduzir o tamanho da fonte em telas menores */
-        padding: 8px 12px; /* Reduzir o padding em telas menores */
+        font-size: 28px;
+        /* Reduzir o tamanho da fonte em telas menores */
+        padding: 8px 12px;
+        /* Reduzir o padding em telas menores */
     }
 
-    h1, h2 {
-        font-size: 30px; /* Reduzir o tamanho da fonte em telas menores */
+    h1,
+    h2 {
+        font-size: 30px;
+        /* Reduzir o tamanho da fonte em telas menores */
     }
 
     section h3 {
-        font-size: 1.8rem; /* Reduzir o tamanho da fonte em telas menores */
+        font-size: 1.8rem;
+        /* Reduzir o tamanho da fonte em telas menores */
     }
 
     section p {
-        font-size: 15px; /* Reduzir o tamanho da fonte em telas menores */
+        font-size: 15px;
+        /* Reduzir o tamanho da fonte em telas menores */
     }
 
     section .lar {
@@ -217,7 +254,7 @@ footer p {
         height: auto;
     }
 
-  
+
     header img {
         width: 120px;
         height: 120px;
@@ -232,8 +269,10 @@ footer p {
     }
 
     nav ul li a {
-        font-size: 25px; /* Reduzir ainda mais o tamanho da fonte em telas muito pequenas */
-        padding: 6px 10px; /* Reduzir ainda mais o padding em telas muito pequenas */
+        font-size: 25px;
+        /* Reduzir ainda mais o tamanho da fonte em telas muito pequenas */
+        padding: 6px 10px;
+        /* Reduzir ainda mais o padding em telas muito pequenas */
     }
 }
 
@@ -386,4 +425,3 @@ footer p {
 
     margin-top: 2px;
 }
-
