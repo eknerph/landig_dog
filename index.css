@@ -37,7 +37,7 @@ nav {
 
 nav ul {
     padding: 0;
-    margin: auto 0 auto 22rem;
+    margin: auto 90px;
     display: flex;
     gap: 20px;
     /* Gap ajustado para responsividade */
@@ -81,11 +81,11 @@ header {
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 5px solid #5BBE42;
-    margin: 15px 0 15px 55px;
+    margin: 15px 0 15px 255px;
     /* Ajustado o margin para melhor espaçamento vertical */
 }
 
