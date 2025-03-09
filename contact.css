@@ -5,5 +5,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 /* comento que pode ser feito mudanças neste item */
