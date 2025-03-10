@@ -164,6 +164,16 @@ section p {
     line-height: 1.6;
     margin-bottom: 15px;
     text-align: justify;
+    
+}
+
+.lar p {
+ 
+    text-indent: 3%;
+}
+
+.plinio p {
+ 
     text-indent: 3%;
 }
 
