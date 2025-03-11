@@ -139,6 +139,11 @@ main {
     /* Adicionado margin para centralizar */
 }
 
+section img {
+    width: 100%;
+    height: auto;
+}
+
 section .mim {
     width: 35%;
     height: 100%;
