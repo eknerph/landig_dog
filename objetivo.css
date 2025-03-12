@@ -8,3 +8,53 @@ body {
   min-height: 100vh; /* Garante que o degradê cubra toda a altura da tela */
   background: linear-gradient(to bottom, #4d1fa1, #2c3e50);
 }
+
+nav ul {
+  padding: 0;
+  margin: auto 90px;
+  display: flex;
+  gap: 20px;
+  /* Gap ajustado para responsividade */
+  flex-wrap: wrap;
+  /* Adicionado para quebrar os itens em telas menores */
+  justify-content: center;
+  /* Centralizar os itens */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  /* Padding ajustado para responsividade */
+  font-size: 30px;
+  /* Tamanho da fonte ajustado para responsividade */
+  font-weight: 600;
+  transition: background .5s;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  background-color: #5BBE42;
+  border-radius: 10px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  /* Adicionado para limitar a largura em telas maiores */
+
+  max-width: 1000px;
+  /* Adicionado para limitar a largura máxima */
+  margin: 20px auto;
+  /* Adicionado margin para centralizar */
+}
